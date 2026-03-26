@@ -1,7 +1,0 @@
-def remove(self):
-    if self.empty():
-        raise Exception("EMPTY FRONTIER")
-    else:
-        node= self.frontier[-1]
-        self.frontier=self.frontier[:-1]
-        return node
